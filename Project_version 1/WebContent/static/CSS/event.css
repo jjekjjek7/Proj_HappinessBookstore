@@ -1,0 +1,70 @@
+/* event.jsp */
+#event-section {
+    max-width: 960px; margin: 20px auto;
+    text-align: center;
+    color: #5D5D5D;
+}
+
+#event-section > a > img#cover { width: 500px; margin-bottom: 20px; }
+#event-section div#img_title {
+	width: 960px;
+    margin-left: 24%;
+    text-align: left;
+    padding: 10px 0; 
+}
+#event-section div#img_title p { margin-right: 48%; float: right;}
+#event-content { max-width: 960px; margin: 0 auto; margin-top: 5px; }
+
+.event-content {
+    max-width: 960px; margin: 0 auto;
+    text-align: center;
+    margin-top: 40px; margin-bottom: 40px;
+}
+
+.event-content .nmBtn {
+    margin-top: 10px;
+}
+
+#event-section .list-bt {
+	margin-top: 20px;
+}
+
+#event-section img#contents { width: 960px; }
+#event-section #event_state { padding: 3px; float: right; margin-bottom: 10px; }
+#event-section #event-state { width: 960px; margin: 0 auto; height: 35px; }
+
+/* event_upload.jsp */
+#eventUpload-section {
+    max-width: 960px; margin: 0 auto;
+	color: #5D5D5D;
+}
+
+#eventUpload-section table {
+	width: 660px;
+    margin: 20px auto;
+    margin-left: 30%;
+    padding: 1px 16px;
+    border-collapse: collapse;
+}
+
+#eventUpload-section table td { padding: 10px; }
+#eventUpload-section form div:last-of-type { text-align: center; margin: 30px 0; }
+
+#event-title {
+    position: relative;
+    height: 98px;
+    border-bottom: solid 1px #ebebeb;
+}
+
+#event-title #sub-title {
+    display: block;
+    position: absolute;
+    left: 180px;
+    padding: 1px 0 0 60px;
+    height: 96px;
+    line-height: 96px;
+    font-size: 18px;
+    font-family: 'Noto Sans KR','맑은 고딕' !important;
+    font-weight: 700; 
+    z-index: 100;
+}

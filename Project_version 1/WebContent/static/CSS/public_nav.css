@@ -1,0 +1,52 @@
+/* help.nav */
+#help-menu ul, #admin-menu ul, #mypage-menu ul {
+    background-color: #ffffff;
+    width: 180px;
+    padding: 0; margin: 0;
+    position: absolute;
+    overflow: auto;
+    font-weight: bold;
+}
+
+#help-menu li a, #admin-menu li a, #mypage-menu li a {
+    display: block;
+    padding: 8px 15px;
+    text-align: left !important;
+}
+
+#help-menu li a:hover, #admin-menu li a:hover, #mypage-menu li a:hover {
+    background-color: #F6F6F6;
+}
+
+#help-menu #help-title, #admin-menu #admin-title, #mypage-menu #mypage-title {
+    position: relative;
+    height: 98px;
+    border-bottom: solid 1px #ebebeb;
+}
+
+#help-menu #main-title, #admin-menu #main-title, #mypage-menu #main-title {
+    width: 180px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    background-color: #EAEAEA;
+    font-size: 18px;
+    display: block;
+
+    position: absolute;
+    top: -1px;
+}
+
+#help-menu #sub-title, #admin-menu #sub-title, #mypage-menu #sub-title {
+    display: block;
+    position: absolute;
+    left: 180px;
+    padding: 1px 0 0 60px;
+    height: 96px;
+    line-height: 96px;
+    font-size: 18px;
+    font-family: 'Noto Sans KR','맑은 고딕' !important;
+    font-weight: 700; 
+    z-index: 100;
+}
+

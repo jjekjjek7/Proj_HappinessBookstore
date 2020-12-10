@@ -1,0 +1,74 @@
+/* index.html */
+#main-section > section { 
+    max-width: 960px; margin: 0 auto; 
+    padding: 20px 0;
+    border-bottom: 1px solid #BDBDBD;
+    
+}
+
+#main-section > section:last-child { border: none; }
+
+.book-content {
+    max-width: 960px; margin: 0 auto;
+    height: 280px;
+    margin: 40px 0;
+}
+
+.more-data {
+	text-align: right;
+	margin-right: 60px;
+}
+
+.more-data > a > h5 {
+	color: #8C8C8C;
+}
+
+/* float 속성 중앙 정렬 */
+.book-content > ul { 
+    position: relative; 
+    float: right;
+    left: -50%; 
+}
+
+.book-content > ul > li {
+    float: left;
+    position: relative;
+    margin-right:15px;
+    left: 50%;
+    text-align: center;
+}
+
+.section-title {
+    text-align: right;
+    margin-right: 60px;
+}
+
+.book_thumbnail {
+    width: 220px; height: 219px;
+    position: relative;
+    text-align: center;
+}
+
+.book_thumbnail > img {
+    width: 150px; height: 219px;
+}
+
+.book_title p:nth-of-type(1) { 
+	padding-top: 5px; 
+	width: 220px;
+	height: 21px; 
+	overflow: hidden;
+	white-space: nowrap; 
+	text-overflow: ellipsis ; 
+}
+
+.book_title p:nth-of-type(2) { 
+	font-size: 12px; 
+	padding-top: 2px; 
+	padding-bottom: 5px; 
+	width: 220px; 
+	height: 21px; 
+	overflow: hidden;
+	white-space: nowrap; 
+	text-overflow: ellipsis ; 
+}

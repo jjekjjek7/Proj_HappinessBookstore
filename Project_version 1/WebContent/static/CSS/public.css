@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Henny+Penny&family=Nanum+Gothic:wght@700&display=swap');
+
+* { margin: 0; padding: 0; }
+body { font-family: 'Nanum Gothic', sans-serif; }
+li { list-style: none; }
+a { text-decoration: none; color: #5D5D5D; cursor: pointer; }
+input[type=button], input[type=submit] { cursor: pointer; }
+
+/* public */
+.nmBtn {
+    width: 120px; height: 40px;
+	background-color: #818181;
+    color: white;
+    font-weight: bold;
+    border: 1px solid black;
+    box-shadow: 0px 8px 10px 0px rgba(0, 0, 0, 0.1);
+   
+    font-size: 15px;
+}
+.nmBtn:active { background-color: #4B4B4B; }
+
+div.search {
+	width: 960px;
+    margin: 20px auto;
+    text-align: right;
+    margin-bottom: 20px;
+}
+.search select { padding: 2px; width: 80px; }
+.search input[type=text] { padding: 2.8px; width: 180px; }
+div.search form { width: 940px; }
+.search-btn {
+	width: 60px; height: 25px;
+    background-color: #EAEAEA;
+    border: 1px solid #5D5D5D;
+    color: #5D5D5D;
+    font-weight: bold;
+    box-shadow: 0px 8px 10px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 3px;
+    font-size: 12px;
+}
+
+.pageNum {
+	width: 960px; margin: 0 auto;
+	text-align: center;
+	margin-bottom: 20px;
+	margin-top: 10px;
+}
+
+
+/* header */
+#main-header {
+    max-width: 960px; margin: 0 auto;
+    height: 150px;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    border-bottom: 1px solid #BDBDBD;
+    z-index: 999;
+}
+
+#title { 
+    position: absolute;
+    top: 20px; left: 10px;
+}
+
+#top-menu {
+    position: absolute;
+    top: 5px; right: 0;
+}
+
+#main-nav {
+    position: absolute;
+    bottom: 15px;
+}
+
+#search-box {
+    position: absolute;
+    width: 200px; height: 30px;
+    right: 30px; bottom: 10px;
+    border: 1px solid black;
+    box-sizing: border-box;
+    padding: 5px;
+    background-color: white;
+}
+
+#search-icon > a > img {
+    position: absolute;
+    width: 25px;
+    bottom: 12px; right: 0;
+}
+
+#search_icon_img {
+    position: absolute;
+    width: 25px;
+    bottom: 12px; right: 0;
+}
+
+#logo { width: 150px; }
+#footerlogo { width: 50px; }
+
+#top-menu > ul { overflow: hidden; }
+#top-menu > ul > li { float: left; }
+#top-menu > ul > li > a {
+    display: block;
+    padding: 3px 8px;
+    font-size: 12px;
+}
+
+#main-nav > ul { overflow: hidden;}
+#main-nav > ul > li { float: left; }
+#main-nav > ul > li > a {
+    display: block;
+    padding: 3px 12px;
+}
+
+
+/* 첫 번째 doropdown */
+.dropdown {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 120px;
+    box-shadow: 0px 8px 10px 0px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown > ul > li > a {
+    display: block;
+    color: #5D5D5D;
+    font-size: 14px;
+    padding: 9px 12px;
+    text-align: left;
+}
+
+.dropdown > ul > li > a:hover { background-color: #f0f0f0; }
+.drop:hover .dropdown { display: block; }
+
+/* 두 번째 doropdown */
+.dropdown-two {
+    display: none;
+    position: absolute;
+    top:0; left: 120px;
+    background-color: white;
+    min-width: 120px;
+    box-shadow: 0px 8px 10px 0px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown-two > ul > li > a {
+    display: block;
+    color: #5D5D5D;
+    font-size: 14px;
+    padding: 9px 12px;
+    text-align: left;
+}
+
+.second-drop:nth-of-type(2) .dropdown-two { top:34px; }
+.second-drop:nth-of-type(3) .dropdown-two { top:68px; }
+.second-drop:nth-of-type(4) .dropdown-two { top:102px; }
+.second-drop:nth-of-type(5) .dropdown-two { top:136px; }
+.second-drop:nth-of-type(6) .dropdown-two { top:170px; }
+.second-drop:nth-of-type(7) .dropdown-two { top:204px; }
+
+.dropdown-two > ul > li > a:hover { background-color: #f0f0f0; }
+.second-drop:hover .dropdown-two { display: block; }
+
+
+/* 첫 번째 doropdown */
+#mypage-drop {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 100px;
+    box-shadow: 0px 8px 10px 0px rgba(0, 0, 0, 0.2);
+}
+
+#mypage-drop > ul > li > a {
+    display: block;
+    color: #5D5D5D;
+    font-size: 12px;
+    padding: 9px 12px;
+    text-align: left;
+}
+
+.mypage-drop > ul > li > a:hover { background-color: #f0f0f0; }
+.drop:hover #mypage-drop { display: block; }
+
+
+/* footer */
+#main-footer {
+    max-width: 960px; margin: 0 auto;
+    padding: 20px 0;
+    text-align: center;
+    border-top: 1px solid #BDBDBD;
+}

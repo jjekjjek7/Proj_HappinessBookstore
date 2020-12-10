@@ -1,0 +1,400 @@
+/* login.jsp */
+#login-section, #input-section {
+    max-width: 960px; margin: 0 auto;
+    height: 400px;
+    position: relative;
+    color: #5D5D5D;
+}
+
+#main-login, #main-input {
+    position: absolute;
+    width: 500px; height: 250px;
+    top: 20%; left: 25%;
+    border: 1px solid gray;
+    
+    padding: 40px 50px;
+    box-sizing: border-box;
+}
+
+#login-section div { line-height: 30px; }
+
+#login-section div:nth-child(1) > input,
+#login-section div:nth-child(2) > input {
+    width: 180px; height: 15px;
+    margin-top: 2px;
+    padding: 5px;
+}
+
+#login-section button {
+    float: right;
+    width: 180px; height: 90px;
+    
+    position: relative;
+    bottom: 90px;
+    
+    background-color: #5D5D5D;
+    color: white;
+    font-weight: bold;
+    border: 1px solid black;  
+    box-shadow: 0px 8px 10px 0px rgba(0, 0, 0, 0.1);
+    
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 15px;
+}
+
+#login-section > div > div:nth-child(4),
+#login-section > div > div:nth-child(5) {
+    margin: 10px 0; float: left;
+}
+
+#login-section > div > div:nth-child(4) > input { margin-right: 2px; }
+#login-section > div > div:nth-child(4) > label { margin-right: 27px; }
+#login-section > div > div button:active { background-color: #4B4B4B; }
+
+div#chk { margin-top: 10px; }
+
+/* join.jsp */
+#join-section {
+    max-width: 960px; margin: 0 auto;
+    position: relative;
+    color: #5D5D5D;
+}
+
+#main-join {
+	position: relative;
+	width: 700px;
+	left: 25%;
+	margin-top: 20px;
+	padding: 25px 0;
+}
+
+#table-title { 
+	margin-bottom: 40px;
+	font-size: 20px;
+	text-align: center;
+	margin-right: 220px;
+	
+}
+#join-section td { padding:10px; }
+#join-section td:first-child { color: red; width: 15px; }
+#join-section td:nth-child(2) { width: 170px; }
+
+#main-join input.box {
+	width: 180px; height: 15px;
+    padding: 5px;
+}
+
+input.numberBox {
+	width: 50px; height: 25px;
+    padding: 5px;
+	box-sizing: border-box;
+}
+
+#main-join input.numberBox2 {
+	width: 35px; height: 25px;
+    padding: 5px;
+	box-sizing: border-box;
+}
+
+.join-bt {
+	text-align: center;
+	display: block;
+	margin: 20px 0;
+	margin-right: 230px;
+}
+
+#main-join .join-bt button {
+	margin-top: 20px; margin-left:10px;
+}
+
+#firstPhone { width: 50px; height: 25px; }
+#pwQ { width:200px; height: 25px; }
+.select_option { padding: 3px; height: 25px; }
+
+input#pw, input#pw2 { margin-bottom: 5px; }
+input#pw ~ span { font-size: 12px; }
+span#pw_chk { display: none; color: red; font-weight: bold; }
+
+/* cart.jsp */
+#cart-section {
+    max-width: 960px; margin: 0 auto;
+    text-align: center;
+    margin-bottom: 40px;
+    color: #5D5D5D;
+}
+
+#cart-section table {
+    width: 760px;
+    margin-left: 20%;
+    margin-top: 20px;
+    border: 1px solid #BDBDBD;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+#cart-section table td:nth-child(2) { border-right: none; }
+#cart-section table tr:not(:first-child) td:nth-child(3) { border-left: none; }
+#cart-section table .cart_thumbnail { 
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+#cart-section table tr:not(:first-child)  td:last-child { text-align: right; }
+#cart-section table tr:last-child  td:last-child { text-align: right; }
+
+.cart_contents {
+    text-align: left;
+    border-left: none;
+}
+
+#cart-section table td {
+    padding: 10px;
+    border: 1px solid #BDBDBD;
+}
+
+.cart_thumbnail img {
+    width: 60px;
+}
+
+#btnClass {
+    margin-top: 20px;
+}
+
+input[type=number] {
+	width: 30px;
+    padding: 2px;
+    border: 1px solid #eaeaea;
+}
+
+
+
+/* mypage.jsp */
+#mypage-section {
+    max-width: 960px; margin: 0 auto;
+	height: 620px;
+    color: #5D5D5D;
+}
+
+#mypage-section table {
+    width: 760px;
+    margin: 20px auto;
+    margin-left: 20%;
+    border-collapse: collapse;
+}
+
+#mypage-section table td {
+    padding: 10px;
+    border: 1px solid #BDBDBD;
+}
+
+#mypage-section table td:first-child { text-align: center; width: 200px; }
+#mypage-section table td:nth-of-type(2) { padding-left: 20px; }
+#mypage-section input { padding: 3px; }
+
+#sample4_roadAddress { width: 250px; padding: 3px; }
+#sample4_detailAddress { width: 150px; padding: 3px; }
+#sample4_extraAddress { width: 150px; padding: 3px; }
+#address input { margin: 4px 0; padding: 3px; }
+
+#adchk {
+    text-align: center;
+	width: 90px; height: 25px;
+    background-color: #EAEAEA;
+    color: #535151;
+    border: 1px solid #909090;
+    box-shadow: 0px 8px 10px 0px rgba(0, 0, 0, 0.05);
+   
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 12px;
+	margin-left: 10px;
+}
+
+.modify-bt { width: 960px; margin: 0 auto; text-align: center; margin-bottom: 20px; }
+
+#remove { float: right; font-size: 12px; padding-bottom: 10px; }
+
+
+/* inputPW.jsp */
+#main-input {
+	padding: 70px;
+}
+#main-input input.nmBtn {
+	float: right;
+    width: 120px;
+    
+    position: relative;
+    bottom: 50px;
+    
+    border: 1px solid black;  
+    box-shadow: 0px 8px 10px 0px rgba(0, 0, 0, 0.1);
+    
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 15px;
+}
+
+#main-input input[type=password] {
+	width: 180px;
+    height: 15px;
+    margin-top: 10px;
+    padding: 5px;
+}
+
+#main-input div:first-child {
+	position: relative;
+    top: 10px;
+}
+#main-input div:last-child {
+	position: relative;
+    top: 23px;
+}
+
+
+/* orderList.jsp */
+#orderList-section {
+    max-width: 960px; margin: 0 auto;
+    color: #5D5D5D;
+    margin-bottom: 20px;
+}
+
+#orderList_table {
+    width: 760px;
+    margin-left: 20%;
+    margin-top: 20px;
+    border-collapse: collapse;
+    box-sizing: border-box;
+    table-layout: fixed;
+}
+
+#orderList_table th {
+    border: 1px solid gray;
+    padding: 10px;
+    text-align: center;
+    background-color: #EAEAEA;
+}
+
+#orderList_table td {
+    border: 1px solid gray;
+    padding: 10px;
+    text-align: center;
+}
+
+#orderList_table td:nth-of-type(3) {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.link_contents a { color: #5d87aa;}
+
+
+/* order.jsp */
+#order-section {
+    max-width: 960px; margin: 0 auto;
+    text-align: center;
+    margin-top: 40px; margin-bottom: 40px;
+    color: #5D5D5D;
+}
+
+#order-section table {
+    width: 860px;
+    margin: 0 auto;
+    border: 1px solid #BDBDBD;
+    border-collapse: collapse;
+    border-left: none;
+    border-right: none;
+}
+#order-section table td:not(:first-child) { padding: 10px; border: 1px solid #BDBDBD; }
+
+#order-section table td:nth-child(1) { width: 30px; padding: 10px; border-top: 1px solid #BDBDBD; }
+#order-section table td:last-child { border-right: none; }
+#order-section table tr:not(:first-child) td:nth-child(2) { border-left: none; text-align: left; }
+#order-section table tr:not(:first-child) td:nth-child(3) { width: 115px; }
+#order-section table tr:not(:first-child) td:nth-child(4) { width: 105px; }
+#book_info table tr:not(:first-child) td:last-child { text-align: right; width: 100px; }
+#book_info table tr:last-child td:last-child:not(#sum) { text-align: right; }
+
+.order_contents {
+    text-align: left;
+    border-left: none;
+}
+
+.order_thumbnail img { width: 60px; }
+
+div.order_title {
+    text-align: left;
+    padding-left: 50px;
+    padding-bottom: 15px;
+}
+
+div#member_info { margin: 40px 0; }
+div#member_info table td:first-child { width: 200px; padding: 10px; border-top: 1px solid #BDBDBD; }
+div#member_info table td:last-child { padding-left: 20px; text-align: left;}
+
+span#point_info {
+    display: inline-block;
+    min-width: 72px;
+    text-align: right;
+}
+
+input#point_input {
+    text-align: right;
+    font-weight: bold;
+    width: 80px;
+    padding: 6px 5px;
+}
+
+.point_btn {
+    display: inline-block;
+    white-space: nowrap;
+    vertical-align: middle;
+    border: 1px solid #aaa;
+    padding: 7px 8px 0;
+    height: 18px;
+    font-size: 12px !important;
+    line-height: 15px;
+    font-weight: 400;
+    font-family: 'dotum',sans-serif;
+    color: #555 !important;
+    text-decoration: none !important;
+    background-color: #fff;
+    text-align: center;
+    transition: all .2s;
+}
+#order-section div#pay_info table td { padding-left: 30px; }
+div#pay_info table td { text-align: left;}
+div#pay_info table td:first-child { width: 480px;}
+div#pay_info table td:last-child { text-align: right;}
+div#pay_info em {
+    font-size: 24px;
+    vertical-align: -4px;
+    font-style: normal;
+}
+div#pay_info em:not(#sale-price) { font-size: 14px; line-height: 2em;}
+div#pay_info #sale-price { color: #ff6666; }
+div#pay_info strong { float: left; line-height: 2em; }
+div#pay_info strong:not(:first-child){ clear: both; font-size: 14px; }
+#order-section #point_ex { font-size: 10px; padding-left: 5px;}
+.list-bt { width: 960px; margin: 20px auto; text-align: center; }
+.order-btn {
+    width: 150px;
+    display: inline-block;
+    font-size: 21px;
+    line-height: 25px;
+    padding: 15px 25px 4px;
+    background-color: #aaa !important;
+    border: 1px solid #5d5d5d;
+    color: #fff;
+    box-shadow: none;
+    height: 39px;
+    text-decoration: none;
+    background-color: #fff;
+    text-align: center;
+    transition: all .2s;
+}
+
+
+/* orderDetail.jsp */
+div#memberDetail_info table td { width: 140px !important; }
+div#memberDetail_info table { margin-bottom: 20px; }
+div#memberDetail_info ~ #book_info table { margin-bottom: 20px; }
+div#memberDetail_info ~ #book_info img { width: 60px; }

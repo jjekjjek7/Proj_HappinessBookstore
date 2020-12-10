@@ -1,0 +1,133 @@
+/* memberList.jsp */
+#memberList-section, #memberInfo-section {
+	max-width: 960px; margin: 0 auto;
+	color: #5D5D5D;
+}
+
+#memberList-section table {
+    width: 750px;
+    margin: 0 auto;
+    margin-left: 20%;
+    margin-top: 20px;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+#memberList-section th {
+    border: 1px solid #FCFCFC;
+    padding: 10px;
+    text-align: center;
+    background-color: #EAEAEA;
+}
+
+#memberList-section table td {
+    padding: 10px;
+    border: 1px solid #EAEAEA;
+    text-align: center;
+}
+
+#memberList-section .list-bt { width: 870px; margin: 20px auto; text-align: right;}
+
+#memberList-section table td:first-child, th:first-of-type { width: 35px; border-left: none; }
+#memberList-section table td:last-child { border-right: none; }
+#memberList-section table .nmBtn { width: 50px; height: 25px; font-size: 12px; }
+#state_search {
+	float: left;
+    margin-left: 20%;
+}
+
+/* memberInfo.jsp */
+#memberInfo-section table {
+	width: 660px;
+    margin: 20px auto;
+    margin-left: 25%;
+    border-collapse: collapse;
+}
+
+#memberInfo-section td { padding: 10px; border: 1px solid #EAEAEA; }
+#memberInfo-section tr td:first-child { width: 170px; text-align: center; }
+#memberInfo-section tr td:last-child { padding-left: 20px; }
+.list-bt { width: 960px; margin: 20px auto; text-align: center; }
+
+#sample4_roadAddress { width: 250px; padding: 3px; }
+#sample4_detailAddress { width: 150px; padding: 3px; }
+#sample4_extraAddress { width: 150px; padding: 3px; }
+#address input, #memberInfo-section input[type=email] { margin: 4px 0; padding: 3px; }
+
+
+/* memberAdd.jsp */
+#join-section {
+    max-width: 960px; margin: 0 auto;
+    position: relative;
+    color: #5D5D5D;
+}
+
+#main-join {
+	position: relative;
+	width: 700px;
+	left: 25%;
+	margin-top: 20px;
+	padding: 25px 0;
+}
+
+#table-title { 
+	margin-bottom: 40px;
+	font-size: 20px;
+	text-align: center;
+	margin-right: 220px;
+	
+}
+#join-section td { padding:10px; }
+#join-section td:first-child { width: 170px; }
+
+#main-join input.box {
+	width: 180px; height: 15px;
+    padding: 5px;
+}
+
+input.numberBox {
+	width: 50px; height: 25px;
+    padding: 5px;
+	box-sizing: border-box;
+}
+
+#main-join input.numberBox2 {
+	width: 35px; height: 25px;
+    padding: 5px;
+	box-sizing: border-box;
+}
+
+.join-bt {
+	text-align: center;
+	display: block;
+	margin: 20px 0;
+	margin-right: 230px;
+}
+
+#main-join .join-bt button {
+	margin-top: 20px; margin-left:10px;
+}
+
+#firstPhone { width: 50px; height: 25px; }
+#pwQ { width:200px; height: 25px; }
+.select_option { padding: 3px; height: 25px; }
+
+input#pw2 { margin-bottom: 5px; }
+span#pw_chk { display: none; color: red; font-weight: bold; }
+
+
+/* orderInfo.jsp */
+#order-section {
+	margin-top: 0px !important;
+}
+#order-section table {
+    width: 750px !important;
+    margin: 20px auto;
+    margin-left: 20% !important;
+    border-collapse: collapse;
+}
+
+#order-section div#pay_info table td:first-child { width: 360px !important; }
+#order-section .order_title { margin-left: 15%; }
+#order-section nav#admin-menu div:nth-of-type(2) a { text-align: left !important; }
+#order-section #memberDetail_info { margin-top: 20px; }
